@@ -8,7 +8,7 @@
 
 1. 克隆仓库：
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/CutrelyAlex/GameDevMap.git
    cd GameDevMap
    ```
 
@@ -31,7 +31,7 @@
 ### 添加社团Logo
 
 1. 将社团的Logo图片放在 `assets/logos/` 文件夹中
-2. 推荐使用 PNG 格式（支持透明背景）
+2. 推荐使用 PNG 格式（透明背景）
 3. 建议尺寸：至少 160x160 像素（地图上显示尺寸）
 4. 文件命名示例：`tsinghua-game-club.png`
 
@@ -85,14 +85,8 @@ GameDevMap/
 ├── script.js           # JavaScript逻辑
 ├── assets/
 │   └── logos/          # 社团Logo图片
-├── data/
-│   └── clubs.json      # 社团数据
-└── specs/              # 项目规范文档
-    └── 1-college-club-map/
-        ├── spec.md
-        ├── impl-plan.md
-        ├── tasks.md
-        └── ...
+└── data/
+   └── clubs.json      # 社团数据
 ```
 
 ## 贡献指南
@@ -100,9 +94,9 @@ GameDevMap/
 欢迎通过 Pull Request 添加新的社团信息或改进功能：
 
 1. Fork 本仓库
-2. 创建特性分支 (`git checkout -b feature/add-club`)
-3. 提交更改 (`git commit -m 'Add new club'`)
-4. 推送到分支 (`git push origin feature/add-club`)
+2. 创建分支
+3. 提交更改
+4. 推送到分支
 5. 创建 Pull Request
 
 ## 许可证
